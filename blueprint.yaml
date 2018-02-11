@@ -8,3 +8,9 @@ node_templates:
       scalable:
         properties:
           default_instances: 1
+  New_ObjectStorage_2:
+    type: cloudify.nodes.ObjectStorage
+    capabilities:
+      scalable:
+        properties:
+          default_instances: 1
